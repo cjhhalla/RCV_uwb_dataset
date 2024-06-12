@@ -5,18 +5,14 @@ This site presents the UWB datasets collected from drone platform
 * Stereo VIO setup equiped in drone
 * We capture drone's and UWB ground truth pose by using Qualisys motion capture
 
-# Citation
-If you use some resource from this data suite, please cite it as
 
-```
-@article{cjh2024RCVuwb,
-  title   = {Addressing Relative Pose Impact on UWB Localization: Dataset Introduction and Analysis},
-  author  = {Jun Hyeok Choe and Inwook Shim},
-}
-```
-# Updates
+# Usage
 
-**06/12/2024**: UWB dataset with precise anchor and tag relative pose
+**UWB ROS Message**: Described in the `uwb` folder.
+**Dataset Folder**: Contains `anchor_n.csv` files for each sequence.
+**Ground Truth Anchor Pose**: Located in `anchor.yaml` (x, y, z, roll, pitch, yaw).
+**Ground Truth Pose**: According to flying in `gt.csv`.
+
 
 # Downloads
 You can download full rosbag file on Drive
@@ -84,7 +80,23 @@ You can download full rosbag file on Drive
     <td class="tg-6ibf">411.2 s</td>
     <td class="tg-v8dz">Complex path</td>
   </tr>
-
   </tr>
 </tbody>
 </table>
+
+
+
+
+# Updates
+
+**06/12/2024**: UWB dataset with precise anchor and tag relative pose without stereo VIO setup data
+
+  # Citation
+If you use some resource from this data suite, please cite it as
+
+```
+@article{cjh2024RCVuwb,
+  title   = {Addressing Relative Pose Impact on UWB Localization: Dataset Introduction and Analysis},
+  author  = {Jun Hyeok Choe and Inwook Shim},
+}
+```
