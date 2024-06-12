@@ -1,0 +1,20 @@
+anchor1:
+- position:
+    data: [0.941, 2.334, 1.092]
+- orientation:
+    data: [-1.122, 1.431, 179.46]
+anchor2:
+- position:
+    data: [0.997, 1.032, 1.064]
+- orientation:
+    data: [1.72, -2.867, -177.443]
+anchor3:
+- position:
+    data: [1.072, -0.835, 1.099]
+- orientation:
+    data: [-0.4, -3.3, -176.9]
+anchor4:
+- position:
+    data: [1.089, -2.51, 1.098]
+- orientation:
+    data: [-0.861, 0.868, 176.773]
