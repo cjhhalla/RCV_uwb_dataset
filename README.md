@@ -90,5 +90,5 @@ If you use some resource from this data suite, please cite it as
   author  = {Jun Hyeok Choe and Inwook Shim},
 }
 ```
-## Credits
-Thanks to hardware developer JJ Kang at Inha University.
+# Credits
+Thanks to hardware developer JJ Kang (jeonjo0727@gmail.com) at Inha University.
