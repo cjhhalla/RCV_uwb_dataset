@@ -1,2 +1,2 @@
 # RCV_uwb_dataset
-ISAPandICCAS_UWB
+Addressing Relative Pose Impact on UWB Localization: Dataset Introduction and Analysis
