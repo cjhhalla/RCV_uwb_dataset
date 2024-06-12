@@ -40,14 +40,14 @@ You can download full rosbag file on Drive
 <tbody>
   <tr>
     <td class="tg-v8dz">Sequence1</td>
-    <td class="tg-6ibf"><a href="https://researchdata.ntu.edu.sg/api/access/datafile/68133" target="_blank" rel="noopener noreferrer">.zip</a></td>
+    <td class="tg-6ibf"><a href="https://drive.google.com/file/d/1Jhw7XsIYu2Vrwtn08faMl7vYwbdgdcYL/view?usp=drive_link" target="_blank" rel="noopener noreferrer">.zip</a></td>
     <td class="tg-6ibf">41.3 MB</td>
     <td class="tg-6ibf">209s</td>
     <td class="tg-v8dz">Azimuth angle & Elevation angle </td>
   </tr>
   <tr>
     <td class="tg-v8dz">Sequence2</td>
-    <td class="tg-9m02"><a href="https://researchdata.ntu.edu.sg/api/access/datafile/68131" target="_blank" rel="noopener noreferrer">.zip</a></td>
+    <td class="tg-9m02"><a href="https://drive.google.com/file/d/1F4t2GqY-9ezIc4wEYbCeMUADx1SmnoJx/view?usp=drive_link" target="_blank" rel="noopener noreferrer">.zip</a></td>
     <td class="tg-6ibf">60.8 MB</td>
     <td class="tg-6ibf">291 s</td>
     <td class="tg-v8dz">Azimuth angle & Range</td>
@@ -68,7 +68,7 @@ You can download full rosbag file on Drive
   </tr>
   <tr>
     <td class="tg-v8dz">Sequence5</td>
-    <td class="tg-9m02"><a href="https://researchdata.ntu.edu.sg/api/access/datafile/68138" target="_blank" rel="noopener noreferrer">.zip</a></td>
+    <td class="tg-9m02"><a href="https://drive.google.com/file/d/1fApwS1YDeotqCV5BU-KjjOvlU3H-Ahw3/view?usp=drive_link" target="_blank" rel="noopener noreferrer">.zip</a></td>
     <td class="tg-6ibf">73.1GB</td>
     <td class="tg-6ibf">309 s</td>
     <td class="tg-v8dz">Range</td>
