@@ -59,7 +59,7 @@ You can download full rosbag file on Drive
   <tr>
     <td class="tg-v8dz">Sequence5</td>
     <td class="tg-9m02"><a href="https://drive.google.com/file/d/1fApwS1YDeotqCV5BU-KjjOvlU3H-Ahw3/view?usp=drive_link" target="_blank" rel="noopener noreferrer">.zip</a></td>
-    <td class="tg-6ibf">73.1GB</td>
+    <td class="tg-6ibf">73.1 MB</td>
     <td class="tg-6ibf">309 s</td>
     <td class="tg-v8dz">Range</td>
   </tr>
