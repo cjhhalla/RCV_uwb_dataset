@@ -44,16 +44,16 @@ You can download full rosbag file on Drive
   </tr>
   <tr>
     <td class="tg-v8dz">Sequence3</td>
-    <td class="tg-9m02"><a href="https://researchdata.ntu.edu.sg/api/access/datafile/68132" target="_blank" rel="noopener noreferrer">.zip</a></td>
-    <td class="tg-6ibf">4.3 GB</td>
-    <td class="tg-6ibf">181.4 s</td>
+    <td class="tg-9m02"><a href="https://drive.google.com/file/d/1fApwS1YDeotqCV5BU-KjjOvlU3H-Ahw3/view?usp=drive_link" target="_blank" rel="noopener noreferrer">.zip</a></td>
+    <td class="tg-6ibf">xx GB</td>
+    <td class="tg-6ibf">xx s</td>
     <td class="tg-v8dz">not yet!</td>
   </tr>
   <tr>
     <td class="tg-v8dz">Sequence4</td>
-    <td class="tg-9m02"><a href="https://researchdata.ntu.edu.sg/api/access/datafile/68144" target="_blank" rel="noopener noreferrer">.zip</a></td>
-    <td class="tg-6ibf">8.6 GB</td>
-    <td class="tg-6ibf">396.3 s</td>
+    <td class="tg-9m02"><a href="https://drive.google.com/file/d/1fApwS1YDeotqCV5BU-KjjOvlU3H-Ahw3/view?usp=drive_link" target="_blank" rel="noopener noreferrer">.zip</a></td>
+    <td class="tg-6ibf">xx GB</td>
+    <td class="tg-6ibf">xx s</td>
     <td class="tg-v8dz">not yet!</td>
   </tr>
   <tr>
@@ -65,9 +65,9 @@ You can download full rosbag file on Drive
   </tr>
   <tr>
     <td class="tg-v8dz">Sequence6</td>
-    <td class="tg-9m02"><a href="https://researchdata.ntu.edu.sg/api/access/datafile/68142" target="_blank" rel="noopener noreferrer">.zip</a></td>
-    <td class="tg-6ibf">9.0 GB</td>
-    <td class="tg-6ibf">411.2 s</td>
+    <td class="tg-9m02"><a href="https://drive.google.com/file/d/1fApwS1YDeotqCV5BU-KjjOvlU3H-Ahw3/view?usp=drive_link" target="_blank" rel="noopener noreferrer">.zip</a></td>
+    <td class="tg-6ibf">xx GB</td>
+    <td class="tg-6ibf">xx s</td>
     <td class="tg-v8dz">Complex path</td>
   </tr>
   </tr>
