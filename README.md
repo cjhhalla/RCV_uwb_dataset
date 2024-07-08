@@ -82,12 +82,14 @@ You can download full rosbag file on Drive
 **06/12/2024**: UWB dataset with precise anchor and tag relative pose without stereo VIO setup data
 
   # Citation
-If you use some resource from this data suite, please cite it as
+Paper is in [this url](https://arxiv.org/abs/2407.03890) If you use some resource from this data suite, please cite it as
 
 ```
 @article{cjh2024RCVuwb,
   title   = {Addressing Relative Pose Impact on UWB Localization: Dataset Introduction and Analysis},
   author  = {Jun Hyeok Choe and Inwook Shim},
+  booktitle = {arXiv}
+  year = {2024}
 }
 ```
 # Credits
