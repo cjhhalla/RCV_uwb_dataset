@@ -88,7 +88,7 @@ Paper is in [this url](https://arxiv.org/abs/2407.03890) If you use some resourc
 @article{cjh2024RCVuwb,
   title   = {Addressing Relative Pose Impact on UWB Localization: Dataset Introduction and Analysis},
   author  = {Jun Hyeok Choe and Inwook Shim},
-  booktitle = {arXiv}
+  journal = {arXiv}
   year = {2024}
 }
 ```
