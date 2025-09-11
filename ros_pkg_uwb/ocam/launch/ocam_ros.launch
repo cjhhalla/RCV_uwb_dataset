@@ -1,0 +1,97 @@
+<launch>
+
+    <arg name="resolution"    default="2"/> <!-- 0: 1280x960, 1: 1280x720, 2: 640x480, 3: 640x360 -->
+    <arg name="frame_rate"    default="10"/>
+    <arg name="exposure"      default="5"/>
+    <arg name="gain"          default="60"/>
+    <arg name="wb_blue"       default="152"/>
+    <arg name="wb_red"        default="138"/>
+    <arg name="auto_exposure" default="false"/>
+    <arg name="show_image"    default="ture"/>
+
+    <group ns = "cam1">
+
+
+        <node pkg="ocam" type="ocam" name="cam1" args="manager" cwd="node" output="screen">
+            <param name="serial"        value="SN_35CA5022"/>
+            <param name="resolution"    value="$(arg resolution)"/> <!-- 0: 1280x960, 1: 1280x720, 2: 640x480, 3: 640x360 -->
+            <param name="frame_rate"    value="$(arg frame_rate)"/>
+            <param name="exposure"      value="$(arg exposure)"/>
+            <param name="gain"          value="$(arg gain)"/>
+            <param name="wb_blue"       value="$(arg wb_blue)"/>
+            <param name="wb_red"        value="$(arg wb_red)"/>
+            <param name="auto_exposure" value="$(arg auto_exposure)"/>
+            <param name="show_image"    value="$(arg show_image)"/>
+            <param name="camera_frame_id" value="cam1"/>
+            
+        </node> 
+
+    </group>
+
+    <group ns = "cam2">
+
+        <node pkg="ocam" type="ocam" name="cam2" args="manager" cwd="node" output="screen">
+            <param name="serial"        value="SN_35CA5040"/>
+            <param name="resolution"    value="$(arg resolution)"/> <!-- 0: 1280x960, 1: 1280x720, 2: 640x480, 3: 640x360 -->
+            <param name="frame_rate"    value="$(arg frame_rate)"/>
+            <param name="exposure"      value="$(arg exposure)"/>
+            <param name="gain"          value="$(arg gain)"/>
+            <param name="wb_blue"       value="$(arg wb_blue)"/>
+            <param name="wb_red"        value="$(arg wb_red)"/>
+            <param name="auto_exposure" value="$(arg auto_exposure)"/>
+            <param name="show_image"    value="$(arg show_image)"/>
+            <param name="camera_frame_id" value="cam2"/>
+            
+        </node>
+
+
+    </group>    
+
+    <group ns = "cam3">
+
+
+        <node pkg="ocam" type="ocam" name="cam3" args="manager" cwd="node" output="screen">
+            <param name="serial"        value="SN_35CA5041"/>
+            <param name="resolution"    value="$(arg resolution)"/> <!-- 0: 1280x960, 1: 1280x720, 2: 640x480, 3: 640x360 -->
+            <param name="frame_rate"    value="$(arg frame_rate)"/>
+            <param name="exposure"      value="$(arg exposure)"/>
+            <param name="gain"          value="$(arg gain)"/>
+            <param name="wb_blue"       value="$(arg wb_blue)"/>
+            <param name="wb_red"        value="$(arg wb_red)"/>
+            <param name="auto_exposure" value="$(arg auto_exposure)"/>
+            <param name="show_image"    value="$(arg show_image)"/>
+            <param name="camera_frame_id" value="cam3"/>
+            
+        </node>
+
+        <!-- Color rectified image -->
+    
+     
+
+    </group>
+
+    <group ns = "cam4">
+
+
+        <node pkg="ocam" type="ocam" name="cam4" args="manager" cwd="node" output="screen">
+            <param name="serial"        value="SN_35CA5043"/>
+            <param name="resolution"    value="$(arg resolution)"/> <!-- 0: 1280x960, 1: 1280x720, 2: 640x480, 3: 640x360 -->
+            <param name="frame_rate"    value="$(arg frame_rate)"/>
+            <param name="exposure"      value="$(arg exposure)"/>
+            <param name="gain"          value="$(arg gain)"/>
+            <param name="wb_blue"       value="$(arg wb_blue)"/>
+            <param name="wb_red"        value="$(arg wb_red)"/>
+            <param name="auto_exposure" value="$(arg auto_exposure)"/>
+            <param name="show_image"    value="$(arg show_image)"/>
+            <param name="camera_frame_id" value="cam4"/>
+          
+        </node>
+
+        <!-- Color rectified image -->
+    
+     
+
+    </group>
+
+
+</launch>

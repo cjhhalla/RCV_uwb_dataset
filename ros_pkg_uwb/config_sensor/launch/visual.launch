@@ -1,0 +1,6 @@
+<launch>
+<node name="rviz" pkg="rviz" type="rviz" args="-d $(find config_sensor)/rviz/test.rviz" output="screen"/>
+<node name="config_sensor" pkg="config_sensor" type="visual" output="screen"/>
+
+   
+</launch>

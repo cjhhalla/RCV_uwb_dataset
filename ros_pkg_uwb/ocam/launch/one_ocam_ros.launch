@@ -1,0 +1,28 @@
+<!-- ... -->
+<launch>
+ <group ns = "cam1">
+    <node pkg="ocam" type="ocam" name="ocam"  output="screen">
+      <param name="serial"        value="SN_35CA5022"/>
+      <param name="resolution"    value="0"/> <!-- 0: 1280x960, 1: 1280x720, 2: 640x480, 3: 640x360 -->
+      <param name="frame_rate"    value="30"/>
+      <param name="exposure"      value="5"/>
+      <param name="gain"          value="60"/>
+      <param name="wb_blue"       value="152"/>
+      <param name="wb_red"        value="138"/>
+      <param name="auto_exposure" value="false"/>
+      <param name="show_image"    value="true"/>
+  </node> 
+ </group>
+    <!-- imu type, default normal -->
+    <arg name="type" default="normal" doc="type [normal, modbus]"/>
+
+    <!-- imu python -->
+    <node pkg="wit_ros_imu" type="wit_$(arg type)_ros.py" name="imu" output="screen">
+        <param name="port"               type = "str"    value="/dev/ttyUSB0"/>
+        <param name="baud"               type = "int"    value="9600"/>
+    </node>
+
+    <!-- load rviz -->
+    <node name="rviz" pkg="rviz" type="rviz" args="-d $(find wit_ros_imu)/rviz/wit_ros_imu.rviz">
+    </node>
+</launch>
